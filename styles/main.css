@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.active{
+  background-color:#339966;
+}
+nav{
+  background-color:#66CCFF;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a{
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color:white;
+  font-family: 'Merriweather', serif;
+  font-size: 22px;
+}
+
+/*primera pagina*/
+.page1>footer{
+  width: 1440px;
+    height: 150px;
+background-color: yellow;
+}
+.page1 footer h1{
+  text-align: center;
+  padding: 60px 0px 0px 0px;
+}
+.page1 div{
+  width: 1200px;
+  height: 450px;
+  background-color:transparent;
+  
+}
+.page1 div section{
+  position: relative;
+  width: 500px;
+  height: 350px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 45px;
+  display: inline-block;
+  background-color: #339966;
+  }
+  .page1 div section img{
+    width: 500px;
+    height: 350px;
+    margin:auto;
+  }
+.page1 div section  article{
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 350px;
+  width: 500px;
+  transform: scale(0);
+  display: inline-block;
+  background-color:rgba(61, 61, 88,0.6);
+  transition: all .5s;
+  text-align:center ;
+overflow: hidden;
+}
+.page1 div section:hover article{
+  transform: scale(1);
+}
+.page1 article h3{
+  margin: 47px -6px 57px -7px;
+  transform: rotate(40px,40px)
+}
+.page1 article:hover h3{
+  transform:rotate(0,0) scale(0);
+
+} 
+.page1 article p{
+  margin: 57px 37px 63px 9px;
+}
+.page1 article a{
+  margin: 59px 25px 63px -24px;
+  background-color:yellow;
+  margin-top: 60px;
+  text-decoration: none;
+}
+/*primera dos*/
+.page2>footer{
+  width: 1440px;
+    height: 150px;
+background-color: yellow;
+
+}
+.page2 footer h1{
+  text-align: center;
+  padding: 60px 0px 0px 0px;
+}
+.page2 div{
+  width: 1200px;
+  height: 450px;
+  background-color:transparent;
+
+}
+.page2 div section{
+  position: relative;
+  width: 500px;
+  height: 350px;
+  margin: 45px;
+  overflow: hidden;
+  display: inline-block;
+  }
+  .page2 div section img{
+    width: 500px;
+    height: 350px;
+    margin:auto;
+  }
+.page2 div section  article{
+  position:absolute;
+  top: 0;
+  height: 350px;
+  width: 500px;
+  display: inline-block;
+  background-color:rgba(61, 61, 88,0.6);
+  text-align:center;
+  transform: rotate(90deg) translate(425px,-425px); 
+  transition: all 1s; 
+
+}
+
+.page2 div section:hover article
+{
+  transform: rotate(0deg) translate(0px,0px); 
+}
+.page2 article h3{
+  margin: 47px -6px 57px -7px;
+}
+.page2 article p{
+  margin: 57px 37px 63px 9px;
+}
+.page2 article a{
+  margin: 59px 25px 63px -24px;
+  background-color:yellow;
+  margin-top: 60px;
+  text-decoration: none;
+
+}
+
+/*primera tres*/
+.page3>footer{
+  width: 1440px;
+    height: 150px;
+background-color: yellow;
+
+}
+.page3 footer h1{
+  text-align: center;
+  padding: 60px 0px 0px 0px;
+}
+.page3 div{
+  width: 1200px;
+  height: 450px;
+  background-color:transparent;
+  
+}
+.page3 div section{
+  position: relative;
+  width: 500px;
+  height: 350px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 45px;
+  display: inline-block;
+  overflow: hidden;
+  }
+  .page3 div section img{
+    width: 500px;
+    height: 350px;
+    margin:auto;
+    transform: rotate(0deg) scale(1);
+    overflow: hidden;
+    }
+  .page3 div section  article{
+    position:absolute;
+    top: 0;
+    height: 350px;
+    width: 500px;
+    display: inline-block;
+    background-color:rgba(61, 61, 88,0.6);
+    text-align:center;
+    transform: translate(450px, -450px) rotate(90deg); 
+    transition: all 1s; 
+    overflow: hidden;
+  }
+  
+  .page3 div section:hover article
+  {
+    transform:translate(0,0) rotate(0);
+  }
+.page3 article h3{
+  margin: 47px -6px 57px -7px;
+  transform: translate(250px, -430px)
+}
+
+.page3 article p{
+  margin: 57px 37px 63px 9px;
+}
+.page3 article a{
+  margin: 59px 25px 63px -24px;
+  background-color:yellow;
+  margin-top: 60px;
+  text-decoration: none;
+}
+
+/*primera cuatro*/
+.page4>footer{
+  width: 1440px;
+    height: 150px;
+background-color: yellow;
+
+}
+.page4 footer h1{
+  text-align: center;
+  padding: 60px 0px 0px 0px;
+}
+.page4 div{
+  width: 1200px;
+  height: 450px;
+  background-color:transparent;
+  
+}
+.page4 div section{
+  position: relative;
+  width: 500px;
+  height: 350px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 45px;
+  display: inline-block;
+  }
+  .page4 div section img{
+    width: 500px;
+    height: 350px;
+    margin:auto;
+  }
+.page4 div section  article{
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 350px;
+  width: 500px;
+  transform: scale(0);
+  display: inline-block;
+  background-color:rgba(61, 61, 88,0.6);
+  transition: all .5s linear;
+  text-align:center ;
+  transform: rotate(0deg) scale(0);
+}
+.page4 div section:hover article{
+  transform: rotate(-720deg) scale(1);
+}
+.page4 article h3{
+  margin: 47px -6px 57px -7px;
+}
+.page4 article p{
+  margin: 57px 37px 63px 9px;
+}
+.page4 article a{
+  margin: 59px 25px 63px -24px;
+  background-color:yellow;
+  margin-top: 60px;
+  text-decoration: none;
+
+}
+
+/*primera cinco*/
+.page5>footer{
+  width: 1440px;
+    height: 150px;
+background-color: yellow;
+
+}
+.page5 footer h1{
+  text-align: center;
+  padding: 60px 0px 0px 0px;
+}
+.page5 div{
+  width: 1200px;
+  height: 450px;
+  background-color:transparent;
+  
+}
+.page5 div article{
+  position: relative;
+  width: 500px;
+  height: 350px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 45px;
+  display: inline-block;
+  overflow: hidden;
+  }
+  .page5 div article img{
+    width: 500px;
+    height: 350px;
+    margin:auto;
+  }
+.page5 div article section {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 350px;
+  width: 500px;
+  transform: scale(0);
+  display: inline-block;
+  background-color:rgba(61, 61, 88,0.6);
+  transition: all .5s;
+  text-align:center ;
+transform: translate(-420px, 420px); 
+overflow: hidden;
+}
+
+.page5 div article:hover section 
+{
+transform:translate(0,0) rotate(0);
+}
+.page5 article h3{
+  margin: 47px -6px 57px -7px;
+  transform: rotate(720deg) scale(0);
+  transition: all .5s linear;
+
+}
+.page5 article:hover h3 {
+  transform: rotate(0) scale(1);
+}
+
+
+
+.page5 article p{
+  margin: 57px 37px 63px 9px;
+}
+
+.page5 article a{
+  display: inline-block;
+ background-color: yellow;
+ transform: rotate(720deg);
+  text-decoration: none;
+  transform: rotate(720deg) scale(0);
+  transition: all .5s linear;
+}
+.page5 article:hover section a{
+  transform: rotate(0) scale(1);
+}
+
+/*primera seis*/
+.page6>footer{
+  width: 1440px;
+    height: 150px;
+background-color: yellow;
+
+}
+.page6 footer h1{
+  text-align: center;
+  padding: 60px 0px 0px 0px;
+}
+.page6 div{
+  width: 1200px;
+  height: 450px;
+  background-color:transparent;
+  
+}
+.page6 div article{
+  position: relative;
+  width: 500px;
+  height: 350px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 45px;
+  display: inline-block;
+  }
+  .page6 div article img{
+    width: 500px;
+    height: 350px;
+    margin:auto;
+  }
+.page6 div article section{
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 350px;
+  width: 500px;
+  transform: scale(0);
+  display: inline-block;
+  background-color:rgb(212, 88, 16);
+  transition: all .5s;
+  text-align:center ;
+overflow: hidden;
+}
+.page6 div article:hover section{
+  transform: scale(1);
+  transition: all .5s;
+}
+.page6 section h3{
+  margin: 47px -6px 57px -7px;
+}
+.page6 section p{
+  margin: 57px 37px 63px 9px;
+  transform: translate(-120px,0px); 
+  transition: all .5s;
+}
+
+.page6 section:hover p
+{
+transform:translate(0,0) rotate(0);
+
+}
+.page6 section a{
+    display: inline-block;
+   background-color: yellow;
+   transform: rotate(720deg);
+    text-decoration: none;
+    transform: rotate(720deg) scale(0);
+    transition: all .5s linear;
+  }
+  .page6 section:hover a{
+    transform: rotate(0) scale(1);
+  }
+
